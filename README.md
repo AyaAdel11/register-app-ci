@@ -48,8 +48,8 @@ Infrastructure Tool: eksctl
 ![Task Proof](./screenshots/last-verion-in-ci.png)
 ![Task Proof](./screenshots/last-verion-in-cd.png)
 ![Task Proof](./screenshots/last-verion-in-argocd.png)
+![Task Proof](./screenshots/last-verion-in-dockerhub.png)
 ![Task Proof](./screenshots/last-verion-repo.png)
-![Task Proof](./screenshots/last-verion-in-argocd.png)
 
 -----
 
@@ -70,9 +70,12 @@ eksctl create cluster --name virtualtechbox-cluster \
 Step 2: Jenkins Pipeline & API Security
 CI/CD Linking: Jobs are linked via Authentication Tokens to ensure secure cross-job communication.
 
+![Task Proof](./screenshots/two-jobs.png)
+
 Image Management: Verified successful image pushes to Docker Hub with unique build tags.
 
-![Task Proof](./screenshots/two-jobs.png)
+![Task Proof](./screenshots/argocd.png)
+![Task Proof](./screenshots/argocd-.png)
 
 ---
 
